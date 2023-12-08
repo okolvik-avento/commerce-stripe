@@ -30,10 +30,6 @@ class ElementsFormAsset extends AssetBundle
             'js/paymentForm.js',
         ];
 
-        $this->depends = [
-            JqueryAsset::class,
-        ];
-
         parent::init();
     }
 }
